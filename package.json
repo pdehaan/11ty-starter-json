@@ -1,0 +1,33 @@
+{
+  "name": "11ty-starter-json",
+  "description": "Eleventy starter template JSON blob.",
+  "version": "1.0.0",
+  "author": "Peter deHaan <peter@deseloper.com> (https://about.me/peterdehaan)",
+  "bugs": {
+    "url": "https://github.com/pdehaan/11ty-starter-json/issues"
+  },
+  "dependencies": {
+    "@octokit/rest": "^18.3.0",
+    "degit": "^2.8.0",
+    "fs-extra": "^9.1.0",
+    "globby": "^11.0.2",
+    "hosted-git-info": "^3.0.8"
+  },
+  "devDependencies": {},
+  "files": [
+    "starters.json"
+  ],
+  "homepage": "https://github.com/pdehaan/11ty-starter-json#readme",
+  "keywords": [],
+  "license": "MPL-2.0",
+  "main": "starters.json",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pdehaan/11ty-starter-json.git"
+  },
+  "scripts": {
+    "build": "node index",
+    "deploy": "NODE_ENV=production node index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
